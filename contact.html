@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arthi</title>
+        <style>
+            body {
+                background-color: #FA8072;
+                color: yellow;
+                font-family:'Algerian';
+            }
+            h1 {
+                text-align: center;
+            }
+
+            nav {
+            overflow: hidden;
+            background-color: rgb(250,128,114);
+            }
+
+            nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            p {
+                text-align: center;
+                font-size:x-large;
+            }
+
+            body {
+                background-image: url('background.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <div class="container-fluid">
+    <body>
+        <h1>Arthi's Blog</h1>
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="about.html">About</a>
+            </nav>
+            <h3>Contact</h3>
+        </header>
+        <p style="color:white;text-align: center;font-size:xx-large;font-family:'Times New Roman', Times, serif;padding-top: 100px;" id="js">
+            Click <button onclick="getdetails()">Here</button> to view Contact Details</p>
+    </body>
+    </div>
+    <script>
+        function getdetails()
+        {
+            document.getElementById("js").innerHTML="Mobile no:6374433912,email id:senarthi2000@gmail.com"
+        }
+    </script>
+</html>
